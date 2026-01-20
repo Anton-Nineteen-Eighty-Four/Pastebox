@@ -1,4 +1,4 @@
-package com.antongulevich.pastebox.api.request;
+package com.antongulevich.pastebox.dto.request;
 
 public enum PublicStatus {
     PUBLIC,

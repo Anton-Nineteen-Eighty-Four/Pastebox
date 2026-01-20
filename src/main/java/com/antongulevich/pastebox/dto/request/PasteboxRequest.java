@@ -1,9 +1,9 @@
-package com.antongulevich.pastebox.api.request;
+package com.antongulevich.pastebox.dto.request;
 
 import lombok.Data;
 
 @Data
-public class PasteBoxRequest {
+public class PasteboxRequest {
     private String date;
     private long expirationTimeSeconds;
     private PublicStatus publicStatus;
